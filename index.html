@@ -12,7 +12,7 @@
     </style>
 </head>
 
-<body class="md:max-w-[1440px]">
+<body class="md:max-w-[1440px] max-w-[350px] ">
     <header>
         <!-- status bar -->
         <div class="flex w-[393px] justify-around items-center h-[54px] gap-28 md:hidden">
@@ -26,7 +26,7 @@
 
         <!-- nav bar -->
         <nav
-            class="flex w-[361px] md:w-[1140px] h-[38px] md:h-[71px] mt-[13px] md:mt-[30px] mx-4 md:mx-[150px] gap-[185px] md:gap-[590px] md:items-center">
+            class="flex w-[361px] md:w-[1140px] h-[38px] md:h-[71px] mt-[13px] md:mt-[30px] px-4 md:mx-[150px] gap-[130px] md:gap-[590px] md:items-center">
 
             <img class="w-[63px] md:w-[135px] h-[38px] md:h-[82px]" src="assets/logo.png" alt="faugei-logo">
 
@@ -203,7 +203,7 @@
         <section class="mt-[41.5px] md:mt-[210px] px-[17px] md:px-[150px] md:flex md:gap-[60px]">
             <figure class="md:flex-1">
                 <img src="assets/flower-store.png" alt="a-man-preparing-flowers" class="w-full h-auto">
-                <img class="hidden md:block md:relative md:w-[286px] md:h-auto md:top-[-725px] md:left-[350px]"
+                <img class="hidden md:block md:relative md:w-[286px] md:h-auto md:top-[-725px] md:left-[350px] animate-spin [animation-duration:3s]"
                     src="assets/trusted-badge.png" alt="trusted-seller-badge-picture">
             </figure>
             <div class="mt-[18px] md:flex-1">
@@ -277,7 +277,7 @@
         <!-- join the colorful bunch -->
         <section class="mt-10 md:mt-[120px]">
             <div
-                class="w-[393px] md:w-[1440px] h-[276px] md:h-[533px] bg-no-repeat bg-center bg-cover bg-[linear-gradient(rgba(7,51,79,0.4),rgba(7,51,79,0.4)),url(assets/news-letter-bg.png)]">
+                class="w-full md:w-[1440px] h-[276px] md:h-[533px] bg-no-repeat bg-center bg-cover bg-[linear-gradient(rgba(7,51,79,0.4),rgba(7,51,79,0.4)),url(assets/news-letter-bg.png)]">
                 <h3
                     class="noto-serif-regular font-bold text-[20px] md:text-[50px] text-[#FFFFFF] pt-[110.5px] md:pt-[199px] text-center">
                     Join the Colorful Bunch
@@ -293,7 +293,47 @@
         </section>
     </main>
     <footer>
-
+        <div class="mt-[50.5px] mb-[50px] pl-5 md:px-40 flex flex-col md:flex-row gap-5 md:gap-[110.5px]">
+            <div class="md:w-[359px] md:h-[179px]">
+                <img class="w-[180px] h-[109px]" src="assets/logo.png" alt="logo-faugei">
+                <p class="mt-4 inter-regular font-normal text-[16px] md:text-[22px] text-black/50">
+                    Indulge your senses with the beauty and fragrance of our fresh flower shop.
+                </p>
+            </div>
+            <div>
+                <ul class="grid gap-8 text-gray-500">
+                    <li><a class="hover:cursor-pointer" href="">Home</a></li>
+                    <li><a class="hover:cursor-pointer" href="">About Us</a></li>
+                    <li><a class="hover:cursor-pointer" href="">Blog</a></li>
+                    <li><a class="hover:cursor-pointer" href="">FAQ</a></li>
+                    <li><a class="hover:cursor-pointer" href="">Contact Us</a></li>
+                </ul>
+            </div>
+            <div>
+                <ul class="grid gap-8 text-gray-500">
+                    <li><a class="hover:cursor-pointer" href="">Features</a></li>
+                    <li><a class="hover:cursor-pointer" href="">Pricing</a></li>
+                    <li><a class="hover:cursor-pointer" href="">Privacy Policy</a>
+                    </li>
+                    <li><a class="hover:cursor-pointer" href="">Terms of Service</a></li>
+                    <li><a class="hover:cursor-pointer" href="">Help Center</a></li>
+                </ul>
+            </div>
+            <div class="flex gap-6 w-[216px] h-9">
+                <a class="hover:cursor-pointer" href="" target="_blank" >
+                    <img class="w-9 h-9" src="assets/icon-linkedin.png" alt="LinkedIn">
+                </a>
+                <a class="hover:cursor-pointer" href="" target="_blank" >
+                    <img class="w-9 h-9" src="assets/icon-twitter.png" alt="Twitter">
+                </a>
+                <a class="hover:cursor-pointer" href="" target="_blank" >
+                    <img class="w-9 h-9" src="assets/icon-facebook.png" alt="Facebook">
+                </a>
+                <a class="hover:cursor-pointer" href="" target="_blank" >
+                    <img class="w-9 h-9" src="assets/icon-youtube.png" alt="YouTube">
+                </a>
+            </div>
+        </div>
     </footer>
     <script>
         // Select all buttons with the class
